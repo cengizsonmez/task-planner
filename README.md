@@ -13,21 +13,21 @@ https://task-planner-case.netlify.app/
 Gelistirme ortami:
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Uretim derlemesi:
 
 ```bash
-npm run build
-npm run preview
+pnpm run build
+pnpm run preview
 ```
 
 Lint kontrolu:
 
 ```bash
-npm run lint
+pnpm run lint
 ```
 
 ## Kullanilan Teknolojiler
