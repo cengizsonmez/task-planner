@@ -4,6 +4,10 @@ Hazir bir Gantt kutuphanesi kullanmadan gelistirilmis, gorev ve alt gorev planla
 
 Uygulama; sabit sol kolonlu bir gorev tablosu ile sag tarafta zaman cizelgesini birlestirir. Alt gorevler timeline uzerinde suruklenebilir ve yeniden boyutlandirilabilir, ana gorev tarih araligi ise bagli alt gorevlerden otomatik olarak turetilir.
 
+## Canli Link
+
+https://task-planner-case.netlify.app/
+
 ## Kurulum ve Calistirma
 
 Gelistirme ortami:
