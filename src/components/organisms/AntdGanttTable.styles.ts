@@ -65,9 +65,15 @@ export const MainBarSurface = styled.div`
   padding: 0 8px;
   display: flex;
   align-items: center;
-  pointer-events: none;
+  pointer-events: auto;
   background: ${({ theme }) => theme.colors.mainBarBackground};
   color: ${({ theme }) => theme.colors.mainBarText};
+`
+
+export const SubBarSurface = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
 `
 
 export const SubBarDragHandle = styled.div`

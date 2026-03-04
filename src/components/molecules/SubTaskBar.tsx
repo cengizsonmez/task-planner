@@ -10,6 +10,7 @@ import {
   SubBarConnector,
   SubBarDragHandle,
   SubBarSegment,
+  SubBarSurface,
 } from '../organisms/AntdGanttTable.styles'
 
 type SubTaskBarProps = {
@@ -72,7 +73,7 @@ export const SubTaskBar = memo(function SubTaskBar({
       onResizeStop={onResizeStop}
     >
       <Dropdown menu={menu} trigger={['contextMenu']}>
-        <>
+        <SubBarSurface>
           {subTaskPieces.connectors.map((connector, index) => (
             <SubBarConnector
               key={`${task.id}-connector-${index}`}
@@ -89,9 +90,9 @@ export const SubTaskBar = memo(function SubTaskBar({
               <SubBarDragHandle className="subtask-drag-handle">
                 <BarTitle>{task.title}</BarTitle>
               </SubBarDragHandle>
-            </SubBarSegment>
+              </SubBarSegment>
           ))}
-        </>
+        </SubBarSurface>
       </Dropdown>
     </Rnd>
   )
